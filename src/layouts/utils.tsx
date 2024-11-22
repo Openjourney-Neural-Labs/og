@@ -21,8 +21,8 @@ export const RLogo: React.FC<{
 }> = ({ theme = "dark", style, ...props }) => {
   const rlogo =
     theme === "dark"
-      ? "https://imagedelivery.net/hwPMYJB5MK91opo-x-eR1Q/b2d8c60b-1bd9-4dcd-4de3-f6fca8e97200/public"
-      : "https://imagedelivery.net/hwPMYJB5MK91opo-x-eR1Q/06617785-6eb1-4c82-b958-2714f37ee500/public";
+      ? "https://imagedelivery.net/hwPMYJB5MK91opo-x-eR1Q/73c989e6-e0c3-404a-24c9-234a3c9e5900/public"
+      : "https://imagedelivery.net/hwPMYJB5MK91opo-x-eR1Q/6ee820e5-89a0-463b-1b03-8d251f4fce00/public";
 
   return (
     <img
