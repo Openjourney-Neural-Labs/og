@@ -21,8 +21,8 @@ export const RLogo: React.FC<{
 }> = ({ theme = "dark", style, ...props }) => {
   const rlogo =
     theme === "dark"
-      ? "https://railway.app/brand/logo-light.svg"
-      : "https://railway.app/brand/logo-dark.svg";
+      ? "https://raw.githubusercontent.com/Openjourney-Neural-Labs/og/refs/heads/main/public/logo-light.svg"
+      : "https://raw.githubusercontent.com/Openjourney-Neural-Labs/og/refs/heads/main/public/logo-dark.svg";
 
   return (
     <img
